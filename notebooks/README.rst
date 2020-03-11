@@ -4,7 +4,7 @@ This directory contains the notebooks used for intermediate analysis.
 
 `Random Cross Validation <https://github.com/multipaths/Results/tree/master/notebooks/random_cross_validation>`_
 -----------------------------------------------------------------------------------------------------------------
-Case scenario presented in the paper
+Case scenario presented in the paper.
 
 `LTOO <https://github.com/multipaths/Results/new/master/notebooks/LTOO_validation>`_
 ------------------------------------------------------------------------------------
