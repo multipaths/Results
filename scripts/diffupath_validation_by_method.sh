@@ -12,7 +12,7 @@ results_dir=$(dirname $(dirname $(realpath $0)))
 pkg_path=${HOME}/.diffupath
 
 python3 -m diffupath diffusion evaluate \
-  --comparison 'database' \
+  --comparison 'method' \
   --data_path ${results_dir}/data/input_mappings \
   --graph ${results_dir}/data/pickles/universe/pathme_universe_non_flatten_collapsed_names_no_isolates_16_03_2020.pickle \
   --kernel ${pkg_path}/kernels/kernel_regularized_pathme_universe.pickle \
