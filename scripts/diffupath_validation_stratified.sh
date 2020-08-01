@@ -20,10 +20,10 @@ python3 -m diffupath diffusion evaluate \
   --iterations 100
 
 
-python3 -m diffupath diffusion evaluate \
-  --comparison 'by_entity_db' \
-  --data_path ${results_dir}/data/input_mappings \
-  --graph ${results_dir}/data/pickles/universe/pathme_universe_non_flatten_collapsed_names_no_isolates_16_03_2020.pickle \
-  --kernel ${pkg_path}/kernels/kernel_regularized_pathme_universe.pickle \
-  --output ${results_dir}/outputs/evaluation_by_entity_db.json \
-  --iterations 100
+#python3 -m diffupath diffusion evaluate \
+#  --comparison 'by_entity_db' \
+#  --data_path ${results_dir}/data/input_mappings \
+#  --graph ${results_dir}/data/pickles/universe/pathme_universe_non_flatten_collapsed_names_no_isolates_16_03_2020.pickle \
+#  --kernel ${pkg_path}/kernels/kernel_regularized_pathme_universe.pickle \
+#  --output ${results_dir}/outputs/evaluation_by_entity_db.json \
+#  --iterations 100
